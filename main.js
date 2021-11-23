@@ -109,7 +109,7 @@
                         }),
                     })
                 },
-                C =
+                y =
                     (n(253),
                     function (e) {
                         var t = e.children
@@ -117,15 +117,15 @@
                             children: [Object(l.jsx)(o.c, {}), Object(l.jsx)(o.b, { className: "Card", children: t })],
                         })
                     }),
-                y = n(18),
-                w = n.n(y),
-                T = n(268),
-                N =
+                C = n(18),
+                w = n.n(C),
+                F = n(268),
+                T =
                     (n(254),
                     function () {
-                        return Object(l.jsx)(T.a, { style: { fontSize: "60px" }, color: "#eb2f96" })
+                        return Object(l.jsx)(F.a, { style: { fontSize: "60px" }, color: "#eb2f96" })
                     }),
-                A = function () {
+                D = function () {
                     var e = { hideWhenDone: !0 }
                     return Object(l.jsxs)(l.Fragment, {
                         children: [
@@ -154,7 +154,7 @@
                                                     children: "\u6642\u9593",
                                                 }),
                                                 Object(l.jsx)(w.a.Delay, { ms: 3e3 }),
-                                                Object(l.jsx)(N, {}),
+                                                Object(l.jsx)(T, {}),
                                                 Object(l.jsx)(w.a, {
                                                     cursor: e,
                                                     className: "Content",
@@ -180,7 +180,7 @@
                                                     children: "\u5730\u9ede",
                                                 }),
                                                 Object(l.jsx)(w.a.Delay, { ms: 3e3 }),
-                                                Object(l.jsx)(N, {}),
+                                                Object(l.jsx)(T, {}),
                                                 Object(l.jsx)(w.a, {
                                                     cursor: e,
                                                     className: "Content",
@@ -194,7 +194,7 @@
                         ],
                     })
                 },
-                D = function () {
+                N = function () {
                     return Object(l.jsxs)(o.d, {
                         columns: 1,
                         children: [
@@ -221,10 +221,10 @@
                         ],
                     })
                 },
-                F = n(22),
+                A = n(22),
                 S = (n(255), n(40)),
-                k = n(101),
-                E = n.n(k),
+                E = n(101),
+                k = n.n(E),
                 I = (n(95), n(94), { isPlaying: !0, size: 90, strokeWidth: 6 }),
                 L = 3600,
                 M = 86400,
@@ -248,13 +248,13 @@
                         children: [
                             Object(l.jsx)(
                                 S.CountdownCircleTimer,
-                                Object(F.a)(
-                                    Object(F.a)({}, I),
+                                Object(A.a)(
+                                    Object(A.a)({}, I),
                                     {},
                                     {
                                         colors: [
                                             ["#DAA520", 0],
-                                            ["black", 0.5],
+                                            ["#FFDF00", 0.5],
                                             ["#F0E68C", 1],
                                         ],
                                         isLinearGradient: !0,
@@ -271,13 +271,13 @@
                             ),
                             Object(l.jsx)(
                                 S.CountdownCircleTimer,
-                                Object(F.a)(
-                                    Object(F.a)({}, I),
+                                Object(A.a)(
+                                    Object(A.a)({}, I),
                                     {},
                                     {
                                         colors: [
                                             ["#DAA520", 0],
-                                            ["black", 0.5],
+                                            ["#FFDF00", 0.5],
                                             ["#F0E68C", 1],
                                         ],
                                         isLinearGradient: !0,
@@ -297,13 +297,13 @@
                             ),
                             Object(l.jsx)(
                                 S.CountdownCircleTimer,
-                                Object(F.a)(
-                                    Object(F.a)({}, I),
+                                Object(A.a)(
+                                    Object(A.a)({}, I),
                                     {},
                                     {
                                         colors: [
                                             ["#DAA520", 0],
-                                            ["black", 0.5],
+                                            ["#FFDF00", 0.5],
                                             ["#F0E68C", 1],
                                         ],
                                         isLinearGradient: !0,
@@ -323,13 +323,13 @@
                             ),
                             Object(l.jsx)(
                                 S.CountdownCircleTimer,
-                                Object(F.a)(
-                                    Object(F.a)({}, I),
+                                Object(A.a)(
+                                    Object(A.a)({}, I),
                                     {},
                                     {
                                         colors: [
                                             ["#DAA520", 0],
-                                            ["black", 0.5],
+                                            ["#FFDF00", 0.5],
                                             ["#F0E68C", 1],
                                         ],
                                         isLinearGradient: !0,
@@ -357,16 +357,15 @@
                         Object(l.jsxs)(l.Fragment, {
                             children: [
                                 Object(l.jsx)("h3", {
-                                    className: "title r-time",
-                                    children: Object(l.jsx)(E.a, {
+                                    children: Object(l.jsx)(k.a, {
+                                        className: "clock",
                                         ticking: !0,
                                         date: e.toString(),
                                         format: " DD MMMM YYYY, HH:mm",
                                     }),
                                 }),
-                                Object(l.jsx)(o.d, {
-                                    columns: 5,
-                                    gap: 1,
+                                Object(l.jsx)("div", {
+                                    style: { padding: "1px" },
                                     children: Object(l.jsx)(G, { endTime: e.valueOf() }),
                                 }),
                             ],
@@ -401,10 +400,10 @@
             var P = function () {
                     var e = [
                         Object(l.jsx)(g, {}),
-                        Object(l.jsx)(A, {}),
+                        Object(l.jsx)(D, {}),
                         Object(l.jsx)(p, {}),
                         Object(l.jsx)(v, {}),
-                        Object(l.jsx)(D, {}),
+                        Object(l.jsx)(N, {}),
                         Object(l.jsx)(z, {}),
                     ]
                     return Object(l.jsxs)("div", {
@@ -447,7 +446,7 @@
                                                                 justifyContent: "center",
                                                                 alignItems: "center",
                                                             },
-                                                            children: Object(l.jsx)(C, { children: e }, t),
+                                                            children: Object(l.jsx)(y, { children: e }, t),
                                                         },
                                                         t
                                                     ),
