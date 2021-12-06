@@ -9,43 +9,39 @@
         262: function (e, t, n) {
             "use strict"
             n.r(t)
-            var c = n(1),
-                i = n.n(c),
+            var i = n(1),
+                c = n.n(i),
                 s = n(20),
                 a = n.n(s),
                 r = (n(158), n(159), n(5)),
                 o = n(7),
-                l = n(2),
-                j = function () {
-                    var e = i.a.useState("test"),
+                d = n(2),
+                l = function () {
+                    var e = c.a.useState("test"),
                         t = Object(r.a)(e, 1)[0]
-                    return Object(l.jsx)(o.e, {
+                    return Object(d.jsx)(o.e, {
                         back: null,
-                        children: Object(l.jsx)("h1", {
-                            className: "Header",
-                            style: { color: "#EAEAEA" },
-                            children: t,
-                        }),
+                        children: Object(d.jsx)("h1", { className: "Header", children: t }),
                     })
                 },
-                d = n(69),
-                b = n(17),
-                m = n.p + "/static/media/1.3558a09a.jpg",
-                u = n.p + "/static/media/2.1beeb807.jpg",
-                O = n.p + "/static/media/3.865e4a9d.jpg",
-                h = n.p + "/static/media/4.44d2f389.jpg",
-                x = n.p + "/static/media/5.bcbd6c33.jpg"
+                j = n(69),
+                m = n(17),
+                b = n.p + "/static/media/1.2954dc09.jpg",
+                u = n.p + "/static/media/2.15b59144.jpg",
+                O = n.p + "/static/media/3.bdf99d10.jpg",
+                h = n.p + "/static/media/4.b69c1a5d.jpg",
+                x = n.p + "/static/media/5.d4006352.jpg"
             n(250), n(251), n(252)
-            b.d.use([b.a, b.b, b.c])
+            m.d.use([m.a, m.b, m.c])
             var g = function () {
                     var e = [
-                        { message: "123", img: m },
+                        { message: "123", img: b },
                         { message: "123", img: u },
                         { message: "123", img: O },
                         { message: "123", img: h },
                         { message: "123", img: x },
                     ]
-                    return Object(l.jsx)(d.a, {
+                    return Object(d.jsx)(j.a, {
                         effect: "cube",
                         grabCursor: !0,
                         cubeEffect: { shadow: !0, slideShadows: !0, shadowOffset: 20, shadowScale: 0.94 },
@@ -53,14 +49,14 @@
                         className: "mySwiper",
                         autoplay: { delay: 2500, disableOnInteraction: !1 },
                         children: e.map(function (e, t) {
-                            return Object(l.jsx)(
-                                d.b,
+                            return Object(d.jsx)(
+                                j.b,
                                 {
                                     onClick: function () {
                                         var t
                                         ;(t = e.message), o.g.show(t)
                                     },
-                                    children: Object(l.jsx)("img", { src: e.img, width: "100%" }, t),
+                                    children: Object(d.jsx)("img", { src: e.img, width: "100%" }, t),
                                 },
                                 t
                             )
@@ -69,10 +65,10 @@
                 },
                 f = n(24),
                 p = function () {
-                    var e = i.a.useState(!1),
+                    var e = c.a.useState(!1),
                         t = Object(r.a)(e, 2),
                         n = t[0],
-                        c =
+                        i =
                             (t[1],
                             Object(f.useSpring)({
                                 to: { opacity: 1, transform: "translateX(0px)" },
@@ -81,17 +77,17 @@
                                 delay: 1e3,
                                 config: f.config.molasses,
                             }))
-                    return Object(l.jsx)(f.animated.h1, {
-                        style: c,
+                    return Object(d.jsx)(f.animated.h1, {
+                        style: i,
                         children:
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
                     })
                 },
-                v = function () {
-                    var e = i.a.useState(!1),
+                C = function () {
+                    var e = c.a.useState(!1),
                         t = Object(r.a)(e, 2),
                         n = t[0],
-                        c = t[1],
+                        i = t[1],
                         s = Object(f.useSpring)({
                             reset: !0,
                             reverse: n,
@@ -100,90 +96,90 @@
                             delay: 200,
                             config: f.config.molasses,
                             onRest: function () {
-                                return c(!n)
+                                return i(!n)
                             },
                         }).number
-                    return Object(l.jsx)(f.animated.h1, {
+                    return Object(d.jsx)(f.animated.h1, {
                         children: s.to(function (e) {
                             return e.toFixed(2)
                         }),
                     })
                 },
-                y =
+                v =
                     (n(253),
                     function (e) {
                         var t = e.children
-                        return Object(l.jsxs)(l.Fragment, {
-                            children: [Object(l.jsx)(o.c, {}), Object(l.jsx)(o.b, { className: "Card", children: t })],
+                        return Object(d.jsxs)(d.Fragment, {
+                            children: [Object(d.jsx)(o.c, {}), Object(d.jsx)(o.b, { className: "Card", children: t })],
                         })
                     }),
-                C = n(18),
-                w = n.n(C),
-                F = n(268),
-                T =
+                y = n(18),
+                T = n.n(y),
+                w = n(268),
+                N =
                     (n(254),
                     function () {
-                        return Object(l.jsx)(F.a, { style: { fontSize: "60px" }, color: "#eb2f96" })
+                        return Object(d.jsx)(w.a, { style: { fontSize: "60px" }, color: "#eb2f96" })
                     }),
-                D = function () {
+                S = function () {
                     var e = { hideWhenDone: !0 }
-                    return Object(l.jsxs)(l.Fragment, {
+                    return Object(d.jsxs)(d.Fragment, {
                         children: [
-                            Object(l.jsxs)("div", {
+                            Object(d.jsxs)("div", {
                                 children: [
-                                    Object(l.jsx)(w.a.Delay, { ms: 5e3 }),
-                                    Object(l.jsx)(w.a, {
+                                    Object(d.jsx)(T.a.Delay, { ms: 5e3 }),
+                                    Object(d.jsx)(T.a, {
                                         cursor: e,
-                                        className: "Title",
+                                        className: "WeddingTimeTitle",
                                         children: "Wedding Information",
                                     }),
                                 ],
                             }),
-                            Object(l.jsxs)(o.d, {
+                            Object(d.jsxs)(o.d, {
                                 columns: 5,
                                 gap: 8,
                                 children: [
-                                    Object(l.jsx)(o.d.Item, {
+                                    Object(d.jsx)(o.d.Item, {
                                         span: 2,
-                                        children: Object(l.jsxs)(w.a, {
+                                        children: Object(d.jsxs)(T.a, {
                                             cursor: e,
                                             children: [
-                                                Object(l.jsx)(w.a, {
+                                                Object(d.jsx)(T.a, {
                                                     cursor: e,
-                                                    className: "Title",
+                                                    className: "WeddingTimeTitle",
                                                     children: "\u6642\u9593",
                                                 }),
-                                                Object(l.jsx)(w.a.Delay, { ms: 3e3 }),
-                                                Object(l.jsx)(T, {}),
-                                                Object(l.jsx)(w.a, {
+                                                Object(d.jsx)(T.a.Delay, { ms: 3e3 }),
+                                                Object(d.jsx)(N, {}),
+                                                Object(d.jsx)(T.a, {
                                                     cursor: e,
-                                                    className: "Content",
+                                                    className: "WeddingTimeContent",
                                                     children: " 2021/9/18",
                                                 }),
-                                                Object(l.jsx)(w.a, {
+                                                Object(d.jsx)(T.a, {
                                                     cursor: e,
-                                                    className: "Content",
+                                                    className: "WeddingTimeContent",
                                                     children: "4:00 pm",
                                                 }),
                                             ],
                                         }),
                                     }),
-                                    Object(l.jsx)(o.d.Item, {}),
-                                    Object(l.jsx)(o.d.Item, {
+                                    Object(d.jsx)(o.d.Item, {}),
+                                    Object(d.jsx)(o.d.Item, {
                                         span: 2,
-                                        children: Object(l.jsxs)(w.a, {
+                                        children: Object(d.jsxs)(T.a, {
                                             cursor: e,
                                             children: [
-                                                Object(l.jsx)(w.a, {
+                                                Object(d.jsx)(T.a, {
                                                     cursor: e,
-                                                    className: "Title",
+                                                    className: "WeddingTimeTitle",
                                                     children: "\u5730\u9ede",
                                                 }),
-                                                Object(l.jsx)(w.a.Delay, { ms: 3e3 }),
-                                                Object(l.jsx)(T, {}),
-                                                Object(l.jsx)(w.a, {
+                                                Object(d.jsx)(T.a.Delay, { ms: 3e3 }),
+                                                Object(d.jsx)(N, {}),
+                                                Object(d.jsx)(T.a, {
                                                     cursor: e,
-                                                    className: "Content",
+                                                    className: "WeddingTimeContent",
                                                     children: "\u597d\u904b\u4f86\u6d32\u969b\u5bb4\u5c55\u4e2d\u5fc3",
                                                 }),
                                             ],
@@ -194,13 +190,13 @@
                         ],
                     })
                 },
-                N = function () {
-                    return Object(l.jsxs)(o.d, {
+                D = function () {
+                    return Object(d.jsxs)(o.d, {
                         columns: 1,
                         children: [
-                            Object(l.jsx)(o.d.Item, {
+                            Object(d.jsx)(o.d.Item, {
                                 style: { height: "45vh", width: "100%" },
-                                children: Object(l.jsx)("iframe", {
+                                children: Object(d.jsx)("iframe", {
                                     src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1081.9517723767697!2d120.68400020253702!3d24.19846142402587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346917a229893087%3A0xde1e7eb1d38a26ca!2z5aW96YGL5L6G5rSy6Zqb5a605bGV5Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1617633987580!5m2!1szh-TW!2stw",
                                     width: "100%",
                                     height: "100%",
@@ -208,9 +204,9 @@
                                     loading: "lazy",
                                 }),
                             }),
-                            Object(l.jsx)(o.d.Item, {
+                            Object(d.jsx)(o.d.Item, {
                                 style: { paddingTop: "5px" },
-                                children: Object(l.jsx)(o.a, {
+                                children: Object(d.jsx)(o.a, {
                                     color: "primary",
                                     onClick: function () {
                                         window.open("https://goo.gl/maps/EFuyTPHj9V2X2qDN8")
@@ -221,128 +217,131 @@
                         ],
                     })
                 },
-                A = n(22),
-                S = (n(255), n(40)),
-                E = n(101),
-                k = n.n(E),
-                I = (n(95), n(94), { isPlaying: !0, size: 90, strokeWidth: 6 }),
-                L = 3600,
-                M = 86400,
-                Y = function (e, t) {
-                    return Object(l.jsxs)("div", {
+                W = n(22),
+                F = (n(255), n(40)),
+                I = n(101),
+                k = n.n(I),
+                L = (n(95), n(94), { isPlaying: !0, size: 90, strokeWidth: 6 }),
+                M = 3600,
+                Y = 86400,
+                A = function (e, t) {
+                    return Object(d.jsxs)("div", {
                         className: "Circle",
                         children: [
-                            Object(l.jsx)("div", { className: "Circle", children: t }),
-                            Object(l.jsx)("div", { children: e }),
+                            Object(d.jsx)("div", { className: "Circle", children: t }),
+                            Object(d.jsx)("div", { children: e }),
                         ],
                     })
                 },
-                G = function (e) {
+                E = "#006699",
+                G = "#99CCCC",
+                z = "#CCCCCC",
+                R = function (e) {
                     var t = e.endTime,
                         n = Date.now() / 1e3,
-                        c = t / 1e3 - n
+                        i = t / 1e3 - n
                     console.log(t, n)
-                    var i = Math.ceil(c / M) * M
-                    return Object(l.jsxs)("div", {
+                    var c = Math.ceil(i / Y) * Y
+                    return Object(d.jsxs)("div", {
                         className: "Display",
                         children: [
-                            Object(l.jsx)(
-                                S.CountdownCircleTimer,
-                                Object(A.a)(
-                                    Object(A.a)({}, I),
+                            Object(d.jsx)(
+                                F.CountdownCircleTimer,
+                                Object(W.a)(
+                                    Object(W.a)({}, L),
                                     {},
                                     {
                                         colors: [
-                                            ["#DAA520", 0],
-                                            ["#FFDF00", 0.5],
-                                            ["#F0E68C", 1],
+                                            [E, 0],
+                                            [G, 0.5],
+                                            [z, 1],
                                         ],
                                         isLinearGradient: !0,
-                                        duration: i,
-                                        initialRemainingTime: c,
+                                        duration: c,
+                                        initialRemainingTime: i,
                                         trailColor: "#dbdbdb",
                                         children: function (e) {
                                             var t,
                                                 n = e.elapsedTime
-                                            return Y("\u5929", n ? ((t = i - n), Math.ceil(t / M) - 1) : 0)
+                                            return A("\u5929", n ? ((t = c - n), Math.ceil(t / Y) - 1) : 0)
                                         },
                                     }
                                 )
                             ),
-                            Object(l.jsx)(
-                                S.CountdownCircleTimer,
-                                Object(A.a)(
-                                    Object(A.a)({}, I),
+                            Object(d.jsx)(
+                                F.CountdownCircleTimer,
+                                Object(W.a)(
+                                    Object(W.a)({}, L),
                                     {},
                                     {
                                         colors: [
-                                            ["#DAA520", 0],
-                                            ["#FFDF00", 0.5],
-                                            ["#F0E68C", 1],
+                                            [E, 0],
+                                            [G, 0.5],
+                                            [z, 1],
+                                        ],
+                                        isLinearGradient: !0,
+                                        duration: Y,
+                                        initialRemainingTime: i % Y,
+                                        onComplete: function (e) {
+                                            return [i - e > M, 60]
+                                        },
+                                        trailColor: "#dbdbdb",
+                                        children: function (e) {
+                                            var t,
+                                                n = e.elapsedTime
+                                            return A("\u6642", n ? ((t = Y - n), Math.ceil(t / M) - 1) : 0)
+                                        },
+                                    }
+                                )
+                            ),
+                            Object(d.jsx)(
+                                F.CountdownCircleTimer,
+                                Object(W.a)(
+                                    Object(W.a)({}, L),
+                                    {},
+                                    {
+                                        colors: [
+                                            [E, 0],
+                                            [G, 0.5],
+                                            [z, 1],
                                         ],
                                         isLinearGradient: !0,
                                         duration: M,
-                                        initialRemainingTime: c % M,
+                                        initialRemainingTime: i % M,
                                         onComplete: function (e) {
-                                            return [c - e > L, 60]
+                                            return [i - e > 60, 60]
                                         },
                                         trailColor: "#dbdbdb",
                                         children: function (e) {
                                             var t,
                                                 n = e.elapsedTime
-                                            return Y("\u6642", n ? ((t = M - n), Math.ceil(t / L) - 1) : 0)
+                                            return A("\u5206", n ? ((t = M - n), Math.ceil(t / 60) - 1) : 0)
                                         },
                                     }
                                 )
                             ),
-                            Object(l.jsx)(
-                                S.CountdownCircleTimer,
-                                Object(A.a)(
-                                    Object(A.a)({}, I),
+                            Object(d.jsx)(
+                                F.CountdownCircleTimer,
+                                Object(W.a)(
+                                    Object(W.a)({}, L),
                                     {},
                                     {
                                         colors: [
-                                            ["#DAA520", 0],
-                                            ["#FFDF00", 0.5],
-                                            ["#F0E68C", 1],
-                                        ],
-                                        isLinearGradient: !0,
-                                        duration: L,
-                                        initialRemainingTime: c % L,
-                                        onComplete: function (e) {
-                                            return [c - e > 60, 60]
-                                        },
-                                        trailColor: "#dbdbdb",
-                                        children: function (e) {
-                                            var t,
-                                                n = e.elapsedTime
-                                            return Y("\u5206", n ? ((t = L - n), Math.ceil(t / 60) - 1) : 0)
-                                        },
-                                    }
-                                )
-                            ),
-                            Object(l.jsx)(
-                                S.CountdownCircleTimer,
-                                Object(A.a)(
-                                    Object(A.a)({}, I),
-                                    {},
-                                    {
-                                        colors: [
-                                            ["#DAA520", 0],
-                                            ["#FFDF00", 0.5],
-                                            ["#F0E68C", 1],
+                                            [E, 0],
+                                            [G, 0.5],
+                                            [z, 1],
                                         ],
                                         isLinearGradient: !0,
                                         duration: 60,
-                                        initialRemainingTime: c % 60,
+                                        initialRemainingTime: i % 60,
                                         onComplete: function (e) {
-                                            return [c - e > 0, 60]
+                                            return [i - e > 0, 60]
                                         },
                                         trailColor: "#dbdbdb",
                                         children: function (e) {
                                             var t,
                                                 n = e.elapsedTime
-                                            return Y("\u79d2", n ? ((t = n), Math.ceil(60 - t) - 1) : 0)
+                                            return A("\u79d2", n ? ((t = n), Math.ceil(60 - t) - 1) : 0)
                                         },
                                     }
                                 )
@@ -350,44 +349,44 @@
                         ],
                     })
                 },
-                z = function () {
+                H = function () {
                     var e = new Date("2022/3/26 12:00:00")
                     return (
                         console.log(e),
-                        Object(l.jsxs)(l.Fragment, {
+                        Object(d.jsxs)(d.Fragment, {
                             children: [
-                                Object(l.jsx)("h3", {
-                                    children: Object(l.jsx)(k.a, {
+                                Object(d.jsx)("h3", {
+                                    children: Object(d.jsx)(k.a, {
                                         className: "clock",
                                         ticking: !0,
                                         date: e.toString(),
                                         format: " DD MMMM YYYY, HH:mm",
                                     }),
                                 }),
-                                Object(l.jsx)("div", {
+                                Object(d.jsx)("div", {
                                     style: { padding: "1px" },
-                                    children: Object(l.jsx)(G, { endTime: e.valueOf() }),
+                                    children: Object(d.jsx)(R, { endTime: e.valueOf() }),
                                 }),
                             ],
                         })
                     )
                 },
-                R = n(36),
-                W = n.n(R),
-                H = function () {
-                    var e = i.a.useState("bottom"),
-                        t = (Object(r.a)(e, 1)[0], i.a.useState(W()().format("YYYY"))),
+                q = n(36),
+                P = n.n(q),
+                B = function () {
+                    var e = c.a.useState("bottom"),
+                        t = (Object(r.a)(e, 1)[0], c.a.useState(P()().format("YYYY"))),
                         n = Object(r.a)(t, 2),
-                        c = n[0]
+                        i = n[0]
                     n[1]
-                    return Object(l.jsxs)(o.f, {
+                    return Object(d.jsxs)(o.f, {
                         children: [
                             " ",
                             [{ key: "copyright" }].map(function (e) {
-                                return Object(l.jsx)(
+                                return Object(d.jsx)(
                                     o.f.Item,
                                     {
-                                        title: "Copyright\xa9" + c + "Arther &Ninny All rights reserved",
+                                        title: "Copyright\xa9" + i + "Arther &Ninny All rights reserved",
                                         style: { color: "#EAEAEA" },
                                     },
                                     e.key
@@ -396,48 +395,49 @@
                         ],
                     })
                 },
-                q = n(41)
-            var P = function () {
+                X = n(41)
+            var J = function () {
                     var e = [
-                        Object(l.jsx)(g, {}),
-                        Object(l.jsx)(D, {}),
-                        Object(l.jsx)(p, {}),
-                        Object(l.jsx)(v, {}),
-                        Object(l.jsx)(N, {}),
-                        Object(l.jsx)(z, {}),
+                        Object(d.jsx)(g, {}),
+                        Object(d.jsx)(S, {}),
+                        Object(d.jsx)(p, {}),
+                        Object(d.jsx)(C, {}),
+                        Object(d.jsx)(D, {}),
+                        Object(d.jsx)(H, {}),
                     ]
-                    return Object(l.jsxs)("div", {
+                    return Object(d.jsxs)("div", {
                         className: "App",
                         children: [
-                            Object(l.jsx)(o.d, {
+                            Object(d.jsx)(o.d, {
                                 columns: 1,
                                 gap: 1,
                                 className: "Header",
-                                children: Object(l.jsx)(j, {}),
+                                children: Object(d.jsx)(l, {}),
                             }),
-                            Object(l.jsx)(o.d, {
+                            Object(d.jsx)(o.d, {
                                 columns: 1,
                                 gap: 1,
-                                children: Object(l.jsx)(q.a, {
+                                children: Object(d.jsx)(X.a, {
                                     pages: e.length,
-                                    style: { top: "0", left: "0", backgroundColor: "#231F20" },
+                                    style: { top: "0", left: "0" },
+                                    className: "Content",
                                     children: e.map(function (e, t) {
-                                        return Object(l.jsxs)(
-                                            i.a.Fragment,
+                                        return Object(d.jsxs)(
+                                            c.a.Fragment,
                                             {
                                                 children: [
-                                                    Object(l.jsx)(q.b, {
+                                                    Object(d.jsx)(X.b, {
                                                         offset: t,
                                                         speed: 0.8,
-                                                        children: Object(l.jsx)("div", { className: "slopeBegin" }),
+                                                        children: Object(d.jsx)("div", { className: "slopeBegin" }),
                                                     }),
-                                                    Object(l.jsx)(q.b, {
+                                                    Object(d.jsx)(X.b, {
                                                         offset: t,
                                                         speed: 0.6,
-                                                        children: Object(l.jsx)("div", { className: "slopeEnd" }),
+                                                        children: Object(d.jsx)("div", { className: "slopeEnd" }),
                                                     }),
-                                                    Object(l.jsx)(
-                                                        q.b,
+                                                    Object(d.jsx)(
+                                                        X.b,
                                                         {
                                                             offset: t,
                                                             speed: 0.2,
@@ -446,7 +446,7 @@
                                                                 justifyContent: "center",
                                                                 alignItems: "center",
                                                             },
-                                                            children: Object(l.jsx)(y, { children: e }, t),
+                                                            children: Object(d.jsx)(v, { children: e }, t),
                                                         },
                                                         t
                                                     ),
@@ -457,16 +457,16 @@
                                     }),
                                 }),
                             }),
-                            Object(l.jsx)(o.d, {
+                            Object(d.jsx)(o.d, {
                                 columns: 1,
                                 gap: 1,
                                 className: "Footer",
-                                children: Object(l.jsx)(H, {}),
+                                children: Object(d.jsx)(B, {}),
                             }),
                         ],
                     })
                 },
-                B = function (e) {
+                V = function (e) {
                     e &&
                         e instanceof Function &&
                         n
@@ -474,18 +474,18 @@
                             .then(n.bind(null, 269))
                             .then(function (t) {
                                 var n = t.getCLS,
-                                    c = t.getFID,
-                                    i = t.getFCP,
+                                    i = t.getFID,
+                                    c = t.getFCP,
                                     s = t.getLCP,
                                     a = t.getTTFB
-                                n(e), c(e), i(e), s(e), a(e)
+                                n(e), i(e), c(e), s(e), a(e)
                             })
                 }
             a.a.render(
-                Object(l.jsx)(i.a.StrictMode, { children: Object(l.jsx)(P, {}) }),
+                Object(d.jsx)(c.a.StrictMode, { children: Object(d.jsx)(J, {}) }),
                 document.getElementById("root")
             ),
-                B()
+                V()
         },
     },
     [[262, 25, 7, 22, 2, 4, 17, 3, 12, 9, 11, 14, 15, 20, 24, 1, 5, 6, 8, 10, 13, 16, 18, 19, 21]],
