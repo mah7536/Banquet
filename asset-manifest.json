@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a246b40c.chunk.css",
+    "main.css": "/static/css/main.5cfdaf22.chunk.css",
     "main.js": "/main.js",
     "main.js.map": "/main.js.map",
     "npm.ahooks.js": "/npm.ahooks.js",
@@ -64,7 +64,7 @@
     "npm.react-moment.js.LICENSE.txt": "/npm.react-moment.js.LICENSE.txt",
     "npm.react.js.LICENSE.txt": "/npm.react.js.LICENSE.txt",
     "npm.scheduler.js.LICENSE.txt": "/npm.scheduler.js.LICENSE.txt",
-    "static/css/main.a246b40c.chunk.css.map": "/static/css/main.a246b40c.chunk.css.map",
+    "static/css/main.5cfdaf22.chunk.css.map": "/static/css/main.5cfdaf22.chunk.css.map",
     "static/css/npm.antd-mobile.0b3902d2.chunk.css.map": "/static/css/npm.antd-mobile.0b3902d2.chunk.css.map",
     "static/css/npm.swiper.1fd399d3.chunk.css.map": "/static/css/npm.swiper.1fd399d3.chunk.css.map",
     "static/media/1.2954dc09.jpg": "/static/media/1.2954dc09.jpg",
@@ -108,7 +108,7 @@
     "npm.react-typist.js",
     "npm.regenerator-runtime.js",
     "npm.ssr-window.js",
-    "static/css/main.a246b40c.chunk.css",
+    "static/css/main.5cfdaf22.chunk.css",
     "main.js"
   ]
 }
